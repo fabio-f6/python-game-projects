@@ -40,6 +40,6 @@ while True:
             print("Please enter a number.")
     if attemptsLeft == 0:
         print(f"Game Over! The answer was {answer}.")
-    answer = input("Play again? (y/n): ")
+    answer = input("Play again? (y/n): ").lower()
     if answer == "n":
         break
